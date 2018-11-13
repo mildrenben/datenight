@@ -12,7 +12,7 @@ const Routes = () => (
 )
 
 const Router = () => (
-	<BrowserRouter>
+	<BrowserRouter basename='/datenight'>
 		<Routes />
 	</BrowserRouter>
 )
