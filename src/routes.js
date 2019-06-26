@@ -6,7 +6,7 @@ import './styles/global'
 const Routes = () => (
 	<div>
 		<Switch>
-			<Route exact path='/' component={HomeScreen} />
+			<Route component={HomeScreen} />
 		</Switch>
 	</div>
 )
